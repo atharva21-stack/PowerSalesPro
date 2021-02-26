@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.my.ctech.powersalespro">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/main_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+
+        <activity
+            android:name="com.my.ctech.powersalespro.MainActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name="com.my.ctech.powersalespro.Splash"
+            android:theme="@style/HiddenTitleTheme">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.my.ctech.powersalespro.Sale" />
+        <activity android:name="com.my.ctech.powersalespro.Purchasing" />
+        <activity android:name="com.my.ctech.powersalespro.Production" />
+        <activity android:name="com.my.ctech.powersalespro.Record" />
+        <activity android:name="com.my.ctech.powersalespro.SaleList"/>
+        <activity android:name="com.my.ctech.powersalespro.PurchasingDetail" />
+        <activity android:name="com.my.ctech.powersalespro.Production_Today" />
+        <activity android:name="com.my.ctech.powersalespro.Production_Material" />
+        <activity android:name="com.my.ctech.powersalespro.All_Raw_Materials" />
+        <activity
+            android:name="com.my.ctech.powersalespro.Record_All_Detail"
+            android:label="@string/title_activity_record__all__detail"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.my.ctech.powersalespro.PDF_WORK.PDF_Templet"
+            android:theme="@style/HiddenTitleTheme"
+            tools:ignore="InnerclassSeparator" />
+    </application>
+
+</manifest>
