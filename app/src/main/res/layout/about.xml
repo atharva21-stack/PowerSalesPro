@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:background="@drawable/front_1"
+    android:layout_height="480dp"
+    android:layout_gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".3"
+        android:layout_margin="10dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:src="@drawable/main_logo"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:text="POWER SALES PRO"
+            android:textSize="@dimen/header"
+            android:textColor="@color/White"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:background="@drawable/page3"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:text="MADE WITH LOVE ❤️"
+            android:textSize="15dp"
+            android:textColor="@color/White"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:text="Developed by Atharva Chandwadkar"
+            android:textSize="15dp"
+            android:textColor="@color/White"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="  VERSION  1.0"
+            android:textSize="@dimen/header"
+            android:textColor="@color/White"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="@dimen/main"
+        android:layout_margin="10dp"
+        android:gravity="top"
+        android:textStyle="italic"
+        android:textColor="@color/White"
+        android:text="As a part of my final year project, I decided to chose Sales Management System that will be easily available to any shopkeeper out there in market as not everyone has a Laptop/PC at there shop.\nHence, justifies the platform of my project .\nBelow you will find some technical information related to the same."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".7"
+        android:textSize="@dimen/detail"
+        android:layout_margin="10dp"
+        android:gravity="top"
+        android:textStyle="italic"
+        android:textColor="@color/text_colour"
+        android:text="Name: Power Sales Pro \nPlatform: Android \nTarget SDK: 29 (Android 10 | Q) \nMinimum SDK: 26 (Android 8 | Oreo)\nLanguags: Advance Java \nDatabase: SQLite  "
+        />
+
+</LinearLayout>
