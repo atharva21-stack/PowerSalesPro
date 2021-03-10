@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.my.ctech.powersalespro.Sale"
+    android:background="@drawable/front_1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:shadowColor="@color/White"
+            android:text="RAW MATERIALS INVENTORY"
+            android:textColor="@color/White"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:shadowColor="@color/White"
+            android:text="ADD ITEMS TO INVENTORY"
+            android:textColor="@color/White"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal"
+            android:shadowColor="@color/White"
+            android:text="POWERED BY \n SU.DAGDUTELI AND SONS, NASHIK"
+            android:textColor="@color/text_colour"
+            android:textSize="10sp"
+            android:textStyle="italic"
+            android:visibility="visible" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/Purchising_material_RecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:dividerHeight="4dp"
+            android:scrollbarSize="2dp"
+            android:scrollbarThumbVertical="@color/White"
+            android:scrollbars="vertical" />
+
+        <android.support.design.widget.FloatingActionButton
+
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="50dp"
+            android:clickable="true"
+            android:onClick="ADD_Raw_Material"
+            android:scaleType="center"
+            android:tint="@color/Black"
+
+            app:backgroundTint="@color/Beige"
+            app:fabSize="auto"
+            app:rippleColor="@color/Black"
+            tools:ignore="OnClick" />
+    </LinearLayout>
+
+</FrameLayout>
