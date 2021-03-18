@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.my.ctech.powersalespro.Splash"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/background_dark">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:id="@+id/main_logo"
+                    android:src="@drawable/main_logo" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:text="POWER SALES PRO"
+                    android:textColor="@color/BlanchedAlmond"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/header"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:text="POWERED BY SU.DAGDUTELI AND SONS, NASHIK"
+                    android:textColor="@color/BurlyWood"
+                    android:gravity="center"
+                    android:textStyle="italic"
+                    android:textSize="@dimen/detail"/>
+</LinearLayout>
